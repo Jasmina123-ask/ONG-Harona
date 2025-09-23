@@ -777,6 +777,10 @@ p {
     min-width: 300px;
 }
 
+.container h2 {
+   text-align: center;
+}
+
 /* Styles pour les informations de contact */
 .contact-info {
     background-color: #f9f9f9;
@@ -806,3 +810,8 @@ p {
     margin: 5px 0 0;
 }
 
+.info-item a {
+    font-size: 14px;
+    color: #555;
+    margin: 5px 0 0;
+}
