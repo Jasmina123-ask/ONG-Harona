@@ -91,7 +91,7 @@ p {
 
 @media (max-width: 768px) {
     .site-title {
-        font-size: 18px;   /* plus petit sur mobile */
+        font-size: 50px;   /* plus petit sur mobile */
         line-height: 1.2;
         margin: 0;
     }
