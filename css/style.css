@@ -89,6 +89,14 @@ p {
     color: #00666d;
 }
 
+@media (max-width: 768px) {
+    .site-title {
+        font-size: 18px;   /* plus petit sur mobile */
+        line-height: 1.2;
+        margin: 0;
+    }
+}
+
 /* Bannière principale (Hero Banner) */
 .hero-banner {
     background-image: url('../asset/image/banniere.jpg'); 
