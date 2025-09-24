@@ -823,3 +823,37 @@ p {
     color: #555;
     margin: 5px 0 0;
 }
+
+/* Style pour le bouton de changement de langue */
+.lang-switcher {
+    color: #00666d;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 20px;
+    padding: 8px 12px;
+    border: 1px solid #00666d;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.lang-switcher:hover {
+    background-color: #fff;
+    color: #00666d;
+}
+
+/* Positionnement du bouton */
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .header .container {
+        flex-direction: column;
+    }
+    .lang-switcher {
+        margin-top: 10px;
+        margin-left: 0;
+    }
+}
