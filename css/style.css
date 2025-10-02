@@ -296,6 +296,7 @@ p {
     display: block;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
+    margin-left: 0px;
 }
 
 /* --- Media Queries pour la réactivité --- */
@@ -856,4 +857,74 @@ p {
         margin-top: 10px;
         margin-left: 0;
     }
+}
+
+/* PARTENARIATS.HTML STYLES */
+
+.partnerships-intro .intro-text {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 40px;
+    border-left: 5px solid #00666d;
+    padding-left: 20px;
+}
+
+.partnerships-details {
+    padding-top: 40px;
+    margin-bottom: 50px;
+}
+
+.partner-card {
+    background-color: #f9f9f9;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.partner-card h3 {
+    color: #00666d;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border-bottom: 2px dotted #ccc;
+    padding-bottom: 10px;
+}
+
+.partner-logo {
+    max-width: 150px; 
+    height: auto;
+    float: right;
+    margin: 0 0 15px 20px;
+}
+
+.partner-card p {
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.cta-partner {
+    text-align: center;
+    padding: 30px;
+    background-color: #e6f7f8; 
+    border-radius: 8px;
+    margin-top: 40px;
+    border: 1px solid #00666d;
+}
+
+.cta-partner h4 {
+    margin: 0 0 10px 0;
+    color: #333;
+}
+
+.cta-partner a {
+    color: #00666d;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+/* Clearfix pour les logos flottants */
+.partner-card::after {
+    content: "";
+    display: table;
+    clear: both;
 }
