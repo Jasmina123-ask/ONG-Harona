@@ -1,59 +1,119 @@
 /* Styles pour la page de détail de l'article */
-.article-detail {
-    padding: 60px 0;
-}
-
-.article-container {
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-.article-detail h1 {
-    font-size: 2.5rem;
-    margin-top: 10px;
-    margin-bottom: 20px;
-}
-
-.article-summary {
-    font-size: 1.25rem;
-    color: #4a4a4a;
-    font-style: italic;
-    margin-bottom: 30px;
-}
-
-.article-cover-image {
-    width: 100%;
-    height: auto;
-    max-height: 450px;
-    object-fit: cover;
-    border-radius: 8px;
-    margin-bottom: 30px;
-}
-
-.article-body p {
-    line-height: 1.8;
-    margin-bottom: 20px;
-    text-align: justify;
-}
-
-.article-body h3 {
-    margin-top: 40px;
-    margin-bottom: 15px;
-    font-size: 1.6rem;
-    border-bottom: 2px solid var(--primary-color, #007bff);
-    padding-bottom: 5px;
-}
-
-.numbered-point {
-    margin-left: 20px;
-    list-style-type: disc;
-    margin-bottom: 10px;
-}
-
-.back-link {
-    display: inline-block;
-    margin-top: 40px;
-    font-weight: bold;
-    color: var(--primary-color, #007bff);
-    text-decoration: none;
-}
+    .article-detail {
+        padding: 60px 0;
+    }
+    
+    .article-container {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    
+    /* --- TITRES & METADONNÉES --- */
+    
+    .article-detail h1 {
+        font-size: 2.5rem;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    
+    .article-summary {
+        font-size: 1.25rem;
+        color: #4a4a4a;
+        font-style: italic;
+        margin-bottom: 30px;
+    }
+    
+    .article-metadata {
+        display: block;
+        font-size: 0.9rem;
+        color: #888;
+        margin-bottom: 5px;
+    }
+    
+    /* --- IMAGE DE COUVERTURE --- */
+    
+    .article-cover-image {
+        width: 100%;
+        height: auto;
+        max-height: 450px;
+        object-fit: cover;
+        border-radius: 8px;
+        margin-bottom: 30px;
+    }
+    
+    /* --- CORPS DE L'ARTICLE (TEXTE ET TITRES INTERNES) --- */
+    
+    .article-body p {
+        line-height: 1.8;
+        margin-bottom: 20px;
+        text-align: justify;
+    }
+    
+    .article-body h3 {
+        margin-top: 40px;
+        margin-bottom: 15px;
+        font-size: 1.6rem;
+        border-bottom: 2px solid var(--primary-color, #007bff);
+        padding-bottom: 5px;
+    }
+    
+    .numbered-point {
+        /* Retiré list-style-type: disc; car c'est un <p> */
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
+    /* Vous pouvez ajouter ceci si vous souhaitez un style de liste réel */
+    /*
+    .article-body ul {
+        list-style: disc inside;
+        margin-bottom: 20px;
+    }
+    */
+    
+    /* --- CORRECTION POUR LES IMAGES INTÉRIEURES (GALERIE) --- */
+    
+    /* Conteneur FIGURE pour les images de la galerie */
+    .article-inner-image {
+        /* Séparer clairement l'image du texte */
+        margin: 40px 0; 
+        padding: 0;
+        width: 100%;
+        /* Ajout d'une ombre légère pour l'esthétique */
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+        border-radius: 8px;
+        overflow: hidden; /* Important pour que l'image respecte les bords arrondis */
+    }
+    
+    /* L'image elle-même à l'intérieur de la figure */
+    .article-inner-image img {
+        display: block;
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        max-height: 400px; /* Limiter la hauteur pour éviter les images trop longues */
+    }
+    
+    /* Légende sous l'image */
+    .article-inner-image figcaption {
+        font-size: 0.9rem;
+        color: #666;
+        text-align: center;
+        padding: 10px;
+        background-color: #f9f9f9; /* Légère couleur de fond pour la lisibilité */
+        border-top: 1px solid #eee;
+        font-style: italic;
+    }
+    
+    /* --- LIEN RETOUR --- */
+    
+    .back-link {
+        display: inline-block;
+        margin-top : 40px;
+        font-weight: bold;
+        color: var(--primary-color, #007bff);
+        text-decoration: none;
+    }
+    
+    .back-link:hover {
+        text-decoration: underline;
+    }

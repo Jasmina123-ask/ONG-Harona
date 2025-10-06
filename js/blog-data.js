@@ -101,22 +101,22 @@ To ensure sustainable recovery, HARONA supports the implementation of agroecolog
         img2: {
             src: 'asset/image/manifestation.jpg', 
             alt: {
-                fr: 'Une équipe HARONA échangeant avec des leaders communautaires.',
-                en: 'A HARONA team engaging with community leaders.',
+              fr: 'Jeunes Malgaches manifestant pour la justice sociale.',
+              en: 'Malagasy youth protesting for social justice.',
             },
         },
         img3: {
-            src: 'asset/image/enfant.jpg', 
-            alt: {
-                fr: 'Séance de formation en entrepreneuriat rural pour les femmes bénéficiaires.',
-                en: 'Rural entrepreneurship training session for women beneficiaries.',
-            },
+          src: 'asset/image/enfant.jpg', 
+          alt: {
+              fr: 'Un enfant étudiant sous un lampadaire.',
+              en: 'A child studying under a streetlamp.',
+          },
         },
         img4: {
             src: 'asset/image/arme.jpg', 
             alt: {
-                fr: 'Membres de la communauté participant à un atelier de cohésion sociale.',
-                en: 'Community members participating in a social cohesion workshop.',
+                fr: 'Une voiture blindée des forces de l’ordre poursuit les jeunes manifestants.',
+                en: 'An armored vehicle of the security forces is chasing the young protesters.',
             },
         },
     },
