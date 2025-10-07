@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <div class="blog-card">
                 <img src="${article.image}" alt="${title}" class="blog-image">
                 <div class="card-content">
-                    <span class="blog-metadata">${dateFormatted} | ${article.category}</span>
+                    <span class="blog-metadata">${dateFormatted} | ${article.category.fr}</span>
                     <h3>${title}</h3>
                     <p>${summary}</p>
                     <a href="${detailLink}" class="read-more-link">

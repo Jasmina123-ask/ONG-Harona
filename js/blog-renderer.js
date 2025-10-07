@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const lang = 'en'; // Langue par défaut pour cette page (index-en.html utilise cette structure)
 
     if (typeof blogArticles === 'undefined') {
-        console.error("Erreur: Le tableau 'blogArticles' n'est pas défini.");
+        console.error("Error: The 'blogArticles' array is not defined.");
         return;
     }
 
@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <div class="blog-card">
                 <img src="${article.image}" alt="${title}" class="blog-image">
                 <div class="card-content">
-                    <span class="blog-metadata">${dateFormatted} | ${article.category}</span>
+                    <span class="blog-metadata">${dateFormatted} | ${article.category.en}</span>
                     <h3>${title}</h3>
                     <p>${summary}</p>
                     <a href="${detailLink}" class="read-more-link">

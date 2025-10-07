@@ -90,7 +90,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
         container.innerHTML = `
             <span class="article-metadata">
-                ${formatDate(article.date)} | ${article.category}
+                ${formatDate(article.date)} | ${article.category.fr}
             </span>
             <h1>${article.title.fr}</h1>
             <p class="article-summary">${article.summary.fr}</p>
