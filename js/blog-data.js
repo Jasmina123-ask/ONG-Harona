@@ -133,7 +133,10 @@ To ensure sustainable recovery, HARONA supports the implementation of agroecolog
     id: 1,
     slug: 'wash-nutrition-atsimo-atsinanana',
     date: '2025-10-13', 
-    category: 'WASH',
+    category: {
+      fr: 'WASH',
+      en: 'WASH',
+    },
     image: 'asset/image/blog/wash.jpg',
     title: {
       fr: 'WASH et Nutrition à Atsimo Atsinanana : Construire les bases d’une santé durable',

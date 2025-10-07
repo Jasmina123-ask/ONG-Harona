@@ -34,11 +34,18 @@
     
     .article-cover-image {
         width: 100%;
+        /* Définir une largeur maximale pour que le centrage soit visible */
+        max-width: 900px; /* Exemple : Fixer une largeur maximale */ 
         height: auto;
         max-height: 450px;
         object-fit: cover;
         border-radius: 8px;
         margin-bottom: 30px;
+        
+        margin: 0 auto 30px auto; 
+
+        /* Assurez-vous qu'elle est traitée comme un bloc (ce qui est généralement le cas des balises <img>) */
+        display: block; 
     }
     
     /* --- CORPS DE L'ARTICLE (TEXTE ET TITRES INTERNES) --- */
