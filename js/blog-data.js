@@ -8,7 +8,10 @@ const blogArticles = [
     id: 5,
     slug: 'madagascar-reconstruire-espoir-apres-greve',
     date: '2025-10-06', 
-    category: 'Socio-Économie',
+    category:  {
+      fr: 'Socio-Économie',
+      en: 'Socio-Economics',
+    },
     image: 'asset/image/crise-sociale.jpg', 
 
     title: {
