@@ -137,7 +137,7 @@ To ensure sustainable recovery, HARONA supports the implementation of agroecolog
       fr: 'WASH',
       en: 'WASH',
     },
-    image: 'asset/image/blog/wash.jpg',
+    image: 'asset/image/wash.jpg',
     title: {
       fr: 'WASH et Nutrition à Atsimo Atsinanana : Construire les bases d’une santé durable',
       en: 'WASH and Nutrition in Atsimo Atsinanana: Building the Foundations of Lasting Health',
