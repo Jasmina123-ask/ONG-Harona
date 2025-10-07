@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const summary = article.summary[lang] || article.summary.fr;
         
         // Lien vers la page de détail en Français (avec le paramètre lang=fr)
-        const detailLink = `article-detail.html?slug=${article.slug}&lang=fr`;
+        const detailLink = `article-detail-fr.html?slug=${article.slug}&lang=fr`;
 
         return `
             <div class="blog-card">
