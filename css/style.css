@@ -761,70 +761,6 @@ p {
     }
 }
 
-/* Styles pour la page Contact */
-.contact-section {
-    padding: 80px 0;
-}
-
-.contact-intro {
-    text-align: center;
-    max-width: 800px;
-    margin: 0 auto 50px auto;
-    font-size: 1.1em;
-    color: #555;
-}
-
-.contact-grid {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 40px;
-    align-items: flex-start;
-}
-
-.contact-info, .contact-form-container {
-    flex: 1;
-    min-width: 300px;
-}
-
-.container h2 {
-   text-align: center;
-}
-
-/* Styles pour les informations de contact */
-.contact-info {
-    background-color: #f9f9f9;
-    padding: 30px;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
-}
-
-.contact-info h3 {
-    color: #00666d;
-    margin-bottom: 20px;
-}
-
-.info-item {
-    margin-bottom: 25px;
-}
-
-.info-item h4 {
-    font-size: 16px;
-    color: #00666d;
-    margin: 0;
-}
-
-.info-item p {
-    font-size: 14px;
-    color: #555;
-    margin: 5px 0 0;
-}
-
-.info-item a {
-    font-size: 14px;
-    color: #555;
-    margin: 5px 0 0;
-}
-
 /* Style pour le bouton de changement de langue */
 .lang-switcher {
     color: #00666d;
@@ -927,4 +863,330 @@ p {
     content: "";
     display: table;
     clear: both;
+}
+
+/* Styles spécifiques pour la page de DONATION*/
+
+/* Adaptation de la bannière HERO pour la page de don */
+.donation-hero-banner {
+    /* Reprendre le style de votre .hero-banner mais en plus court pour cibler l'action */
+    background-image: url('../asset/image/banniere.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 80px 0; /* Un peu moins de padding que le hero d'accueil */
+    min-height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.donation-hero-banner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 1; 
+}
+
+.donation-hero-banner h1, .donation-hero-banner p {
+    position: relative;
+    z-index: 2;
+    color: white;
+    margin-bottom: 5px;
+}
+
+/* SECTION PRINCIPALE (Message et Formulaire) */
+.donation-form-section {
+    padding: 60px 0;
+    background-color: #fff;
+}
+
+.donation-grid {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start; /* Aligne le contenu en haut */
+}
+
+/* Colonne Gauche : Informations d'Impact */
+.impact-info {
+    flex: 2; /* Prend 2/3 de l'espace sur grand écran */
+    padding-right: 20px;
+}
+
+.impact-info ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.impact-info li {
+    margin-bottom: 15px;
+    font-size: 1.1em;
+    color: #333;
+}
+
+.impact-info li i {
+    color: #e65c00; /* Couleur d'accentuation (orange) */
+    margin-right: 10px;
+}
+
+.transparency-note {
+    font-style: italic;
+    margin-top: 30px;
+    color: #00666d; /* Couleur de votre ONG */
+}
+
+/* Colonne Droite : Emplacement du Formulaire */
+.donation-widget-wrapper {
+    flex: 1; /* Prend 1/3 de l'espace sur grand écran */
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+}
+
+.widget-title {
+    text-align: center;
+    color: #e65c00;
+    margin-top: 0;
+    border-bottom: 2px solid #f0f0f0;
+    padding-bottom: 15px;
+}
+
+.security-text {
+    text-align: center;
+    font-size: 0.9em;
+    color: #00666d;
+    margin-top: 20px;
+}
+
+/* Styles pour le Formulaire PlaceHolder (à supprimer lors de l'intégration) */
+.placeholder-form {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.placeholder-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+.placeholder-form input, .placeholder-form select {
+    width: 60%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.placeholder-form select {
+    width: 35%;
+    margin-left: 5px;
+}
+
+.placeholder-button {
+    width: 100%;
+    text-align: center;
+    cursor: not-allowed;
+    opacity: 0.7;
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 992px) {
+    .donation-grid {
+        flex-direction: column;
+    }
+    .impact-info {
+        padding-right: 0;
+    }
+    .donation-widget-wrapper {
+        width: 100%;
+    }
+}
+
+/* ======================================= */
+/* STYLES GÉNÉRAUX DE LA SECTION CONTACT */
+/* ======================================= */
+
+.contact-section {
+    padding: 80px 20px;
+    background-color: #f8f8f8; 
+    text-align: center;
+}
+
+.container {
+    max-width: 2000px;
+    margin: 0 auto;
+}
+
+.contact-section h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.contact-intro {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 40px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* --------------------------------------- */
+/* DISPOSITION VERTICALE (HAUT ET BAS) */
+/* --------------------------------------- */
+
+.contact-grid {
+    display: block;
+}
+
+/* --- Bloc Coordonnées (contact-info) --- */
+
+.contact-info {
+    max-width: 500px;
+    margin: 0 auto 40px auto; /* Marge en bas pour séparer du formulaire */
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    text-align: left;
+}
+
+.contact-info h3 {
+    font-size: 1.5rem;
+    color: var(--primary-color, #00666d);
+    margin-bottom: 25px;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+}
+
+.info-item {
+    margin-bottom: 20px;
+    display: flex; /* Pour aligner l'icône (si ajoutée) et le texte */
+    flex-direction: column;
+}
+
+.info-item h4 {
+    font-size: 1.1rem;
+    color: #333;
+    margin: 0 0 5px 0;
+    font-weight: 700;
+}
+
+.info-item p {
+    font-size: 1rem;
+    color: #666;
+    margin: 0;
+}
+
+/* Styles spécifiques aux liens (LinkedIn) */
+.info-item a {
+    color: var(--primary-color, #00666d);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.info-item a:hover {
+    text-decoration: underline;
+}
+
+
+/* --------------------------------------- */
+/* STYLES DU FORMULAIRE (contact-form) */
+/* --------------------------------------- */
+/* Nous conservons les styles précédents qui assurent le centrage */
+
+.contact-form {
+    max-width: 500px;
+    margin: 0 auto; /* Centré, et la marge supérieure est donnée par le contact-info précédent */
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    border-top: 5px solid var(--primary-color, #00666d);
+}
+
+.contact-form h3 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+#contactForm label {
+    display: block; 
+    margin-bottom: 8px;
+    margin-top: 15px;
+    font-weight: 600;
+    color: #4a4a4a;
+}
+
+#contactForm input[type="text"],
+#contactForm input[type="email"],
+#contactForm input[type="tel"],
+#contactForm input[type="text"],
+#contactForm textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; 
+    font-size: 1rem;
+}
+
+#contactForm textarea {
+    resize: vertical; 
+    min-height: 100px;
+}
+
+#contactForm button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin-top: 25px;
+    background-color: var(--primary-color, #00666d);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#contactForm button[type="submit"]:hover {
+    background-color: var(--primary-color-darker, #0056b3);
+}
+
+/* Message de confirmation */
+#confirmationMessage {
+    font-size: 1rem;
+    padding: 10px;
+    border: 1px solid green;
+    background-color: #e6ffe6;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Adaptation mobile */
+@media (max-width: 600px) {
+    .contact-section {
+        padding: 40px 10px;
+    }
+    .contact-info, .contact-form {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
 }

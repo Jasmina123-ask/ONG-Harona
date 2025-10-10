@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soutenez l'ONG HARONA - Faire un don</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/donation_style.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" />
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="logo" style="display: flex; align-items: center;">
+                <a href="index.html">
+                    <img src="asset/image/Harona.jpg" alt="Logo de l'ONG HARONA" class="logo" >
+                </a>
+                <h1 class="site-title" style="margin-left: 25px;">ONG HARONA</h1>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="acceuil.html">Accueil</a></li>
+                    <li><a href="a-propos.html">À Propos</a></li>
+                    <li><a href="projets.html">Nos Projets</a></li>
+                    <li><a href="partenariats.html">Partenaires</a></li>
+                    <li><a href="blog-fr.html">Blog</a></li> 
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="donation_fr.html">Faire un Don</a></li>
+                </ul>
+            </nav>
+            <a href="donation.html" class="lang-switcher">EN</a>
+            <button class="menu-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        
+        <section class="donation-hero-banner">
+            <div class="container">
+                <h1>Soutenez Notre Mission. Faites un don aujourd'hui.</h1>
+                <p>Votre contribution renforce directement les communautés locales et assure la pérennité de nos programmes essentiels.</p>
+            </div>
+        </section>
+
+        <section class="donation-form-section">
+            <div class="container donation-grid">
+
+                <div class="impact-info">
+                    <h2>Faites une Réelle Différence</h2>
+                    <p>Chez HARONA, nous œuvrons pour bâtir des communautés résilientes et équitables. Votre don, quel que soit le montant, alimente nos actions clés dans des domaines comme l'Eau et l'Assainissement, l'Agriculture Durable et la Gouvernance des Risques.</p>
+                    <p>Votre générosité nous permet de :</p>
+                    <ul>
+                        <li><i class="fas fa-check-circle"></i> Offrir des formations essentielles aux acteurs locaux.</li>
+                        <li><i class="fas fa-check-circle"></i> Mettre en œuvre des projets vitaux d'eau et d'hygiène.</li>
+                        <li><i class="fas fa-check-circle"></i> Renforcer la gouvernance locale et la participation citoyenne.</li>
+                    </ul>
+                    <p class="transparency-note">Nous garantissons une transparence totale. Vos fonds sont gérés selon les normes de responsabilité les plus strictes.</p>
+                </div>
+
+                <div class="donation-widget-wrapper">
+                    <h3 class="widget-title">Choisissez le montant de votre contribution</h3>
+
+                    <div id="payment-widget-container">
+                        <div class="placeholder-form">
+                            <p>Dès que le compte de don de l'ONG sera configuré, le formulaire de paiement sécurisé et personnalisé apparaîtra ici. Il ne demandera que le montant et les détails de paiement.</p>
+                            <label for="amount-input">Je souhaite donner :</label>
+                            <input type="number" id="amount-input" placeholder="ex. : 50" min="5">
+                            <select>
+                                <option>EUR</option>
+                                <option>USD</option>
+                                <option>MGA</option>
+                            </select>
+                            <button disabled class="cta-button placeholder-button">Continuer vers le paiement sécurisé</button>
+                        </div>
+
+                    </div>
+                    
+                    <p class="security-text"><i class="fas fa-lock"></i> Toutes les transactions sont sécurisées et conformes aux normes PCI. Un reçu fiscal sera fourni.</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section about">
+                    <h4>À propos de nous</h4>
+                    <p>ONG HARONA, dédiée au renforcement des communautés pour un avenir durable et résilient.</p>
+                </div>
+                <div class="footer-section contact-info" style="background-color:  #00666d;">
+                    <h4>Contact</h4>
+                    <p>Adresse : Lot 73 AD, Ankadikely Ilafy, Antananarivo</p>
+                    <p>Email : ongharona@gmail.com </p>
+                    <p>Téléphone : +261344599960  </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
