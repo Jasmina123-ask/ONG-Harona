@@ -201,8 +201,11 @@ At its core, the program aims to reduce chronic malnutrition by improving water 
     id: 2,
     slug: 'agriculture-durable-mananjary',
     date: '2025-10-20', 
-    category: 'Agriculture',
-    image: 'asset/image/blog/agriculture.jpg',
+    category: {
+      fr: 'Agriculture',
+      en: 'Agriculture',
+    },
+    image: 'asset/image/Agriculture.jpg',
     title: {
       fr: 'Agriculture durable et autonomisation des communautés à Mananjary',
       en: 'Sustainable Agriculture and Community Empowerment in Mananjary',
@@ -222,6 +225,7 @@ HARONA accorde une importance particulière au renforcement du rôle des femmes.
 Le projet comprend également un volet organisationnel. Les producteurs sont regroupés en associations et en coopératives afin de mutualiser les ressources, faciliter l’accès aux intrants, et négocier collectivement avec les acheteurs. Cette structuration leur donne plus de poids dans les chaînes de valeur et améliore la stabilité de leurs revenus.
 
 À travers ce projet, HARONA ne se contente pas de promouvoir l’agriculture durable : nous contribuons à bâtir une communauté résiliente, capable de tirer parti de ses ressources, de valoriser son savoir-faire et de créer un cercle vertueux de développement inclusif.
+      <img-4>
       `, 
       en: `
 In Mananjary, agriculture remains the main source of income but faces growing threats from deforestation, climate shocks, and poor infrastructure. Smallholder farmers—especially women and youth—struggle to access modern techniques, financing, or fair markets. HARONA turns these challenges into opportunities through a program of sustainable agriculture and community empowerment.
@@ -233,7 +237,17 @@ HARONA places a strong emphasis on women’s empowerment. By training them in po
 The program also fosters producer organization. Farmers are grouped into associations and cooperatives to pool resources, access inputs, and negotiate collectively with buyers. This structure strengthens their bargaining power and stabilizes incomes.
 
 Through this project, HARONA is not just promoting sustainable farming. We are building resilient communities capable of harnessing their resources, valuing their know-how, and creating a virtuous circle of inclusive development.
+      <img-4>
       `,
+    },
+        gallery: {
+        img4: {
+            src: 'asset/image/Agriculture (2).jpg', 
+            alt: {
+                fr: 'Des femmes récoltent et transportent les produits du champ.',
+                en: 'Female workers are collecting and carrying the farm produce.',
+            },
+        },
     },
   },
 
@@ -244,8 +258,11 @@ Through this project, HARONA is not just promoting sustainable farming. We are b
     id: 3,
     slug: 'agritech-innovation-manakara',
     date: '2025-10-27', 
-    category: 'Tech',
-    image: 'asset/image/blog/agritech.jpg',
+    category: {
+      fr: 'Agriculture',
+      en: 'Agriculture',
+    },
+    image: 'asset/image/agritech.jpg',
     title: {
       fr: 'AgriTech à Manakara : l’innovation au service des producteurs',
       en: 'AgriTech in Manakara: Innovation at the Service of Farmers',
@@ -265,6 +282,7 @@ Au-delà de l’information, le projet ouvre un accès direct aux marchés. Les 
 L’initiative contribue également à l’inclusion des jeunes et des femmes. Des formations sont organisées pour leur permettre de maîtriser ces outils et de devenir des relais technologiques au sein de leurs communautés. De cette manière, l’AgriTech devient non seulement un outil de productivité, mais aussi un levier d’équité sociale et de développement local.
 
 En intégrant la technologie dans les pratiques agricoles traditionnelles, HARONA et SmartSaha ouvrent une nouvelle voie : celle d’une agriculture connectée, durable et inclusive, où chaque producteur a sa place dans l’économie numérique.
+      <img-4>
       `, 
       en: `
 In Manakara, agriculture drives the local economy, yet many farmers still lack access to reliable information, weather forecasts, and fair markets. In partnership with SmartSaha, HARONA leverages AgriTech to close this gap and unlock new opportunities for producers.
@@ -276,7 +294,17 @@ Beyond information, the project opens direct market access. Farmers can list pro
 The initiative also promotes youth and women’s inclusion. Training sessions equip them to master these tools and act as local tech ambassadors. AgriTech thus becomes not only a tool for productivity but also a lever for social equity and community development.
 
 By blending technology with traditional farming practices, HARONA and SmartSaha pave the way for a connected, inclusive, and sustainable agriculture, where every farmer has a place in the digital economy.
+      <img-4>
       `,
+    },
+        gallery: {
+        img4: {
+            src: 'asset/image/Smarsaha.jpg', 
+            alt: {
+                fr: 'Agriculture.',
+                en: 'Agriculture.',
+            },
+        },
     },
   },
 
@@ -288,7 +316,7 @@ By blending technology with traditional farming practices, HARONA and SmartSaha 
     slug: 'resilience-anticipation-cyclonique-mananjary',
     date: '2025-11-03', 
     category: 'Resilience',
-    image: 'asset/image/blog/resilience.jpg',
+    image: 'asset/image/Resilience.jpg',
     title: {
       fr: 'Résilience et anticipation cyclonique à Mananjary',
       en: 'Cyclone Resilience and Preparedness in Mananjary',
@@ -310,7 +338,8 @@ Le projet met aussi l’accent sur des pratiques agricoles adaptées : plantatio
 Enfin, la solidarité communautaire est placée au centre. Des comités locaux sont créés pour coordonner les actions avant, pendant et après les cyclones. Cette dynamique collective renforce la cohésion sociale et donne aux communautés la capacité d’agir ensemble face à l’adversité.
 
 En anticipant plutôt que de subir, HARONA et les habitants de Mananjary construisent une véritable culture de résilience. L’objectif est clair : transformer la vulnérabilité en force et donner aux familles les moyens de faire face à un avenir incertain avec dignité et confiance.
-      `, 
+      <img-4>
+        `, 
       en: `
 Every year, Madagascar is hit by 2 to 3 major cyclones, devastating crops, destroying homes, and weakening livelihoods. Mananjary, on the east coast, is particularly exposed. HARONA is working there to build resilience and preparedness, helping communities reduce vulnerability and face disasters with dignity.
 
@@ -323,7 +352,17 @@ The project also emphasizes climate-smart farming practices: planting resilient 
 Finally, community solidarity is central. Local committees are created to coordinate actions before, during, and after cyclones. This collective dynamic builds social cohesion and equips communities to act together in the face of adversity.
 
 By focusing on anticipation rather than reaction, HARONA and the people of Mananjary are building a true culture of resilience, turning vulnerability into strength and preparing families for an uncertain future with confidence.
+      <img-4>
       `,
+    },
+            gallery: {
+        img4: {
+            src: 'asset/image/Cyclone.jpg', 
+            alt: {
+                fr: 'Séquelles du cyclone.',
+                en: 'Cyclone Aftermath.',
+            },
+        },
     },
   },
 ];
