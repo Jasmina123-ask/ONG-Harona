@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
         // --- LOGIQUE AJOUTÉE POUR LA GALERIE ---
         if (article.gallery) {
-            for (let i = 1; i <= 4; i++) {
+            for (let i = 1; i <= 5; i++) {
                 const imgKey = `img${i}`;
                 const placeholder = `<img-${i}>`;
                 

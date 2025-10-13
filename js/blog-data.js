@@ -51,6 +51,8 @@ HARONA accompagne les familles touchées par la crise dans la relance de leurs a
 2. Autonomisation économique et entrepreneuriat communautaire
 HARONA met en place des formations en compétences entrepreneuriales, gestion financière et marketing local. Les bénéficiaires sont regroupés en coopératives ou groupements féminins pour favoriser la mutualisation des ressources, la transformation des produits locaux et l’accès au marché. Des caisses communautaires rotatives soutiennent la création de microentreprises rurales et urbaines. Cette approche consolide la solidarité, stimule les circuits économiques de proximité et favorise la durabilité des revenus.
 
+<img-5>
+
 3. Renforcement de la résilience et de la gouvernance locale
 Pour assurer un relèvement durable, HARONA appuie la mise en œuvre d’approches agroécologiques (diversification culturale, compostage, micro-irrigation) et la gestion participative des ressources communautaires. Des espaces de dialogue citoyen et de formation à la gouvernance locale sont créés afin de renforcer la cohésion sociale, la transparence et la responsabilité collective. Les ménages deviennent ainsi acteurs de leur développement, capables d’anticiper les crises et de bâtir une économie résiliente et inclusive.
       
@@ -84,6 +86,8 @@ HARONA supports families affected by the crisis in reviving their local economic
 
 2. Economic Empowerment and Community Entrepreneurship
 HARONA implements training in entrepreneurial skills, financial management, and local marketing. Beneficiaries are grouped into cooperatives or women's associations to promote resource pooling, local product processing, and market access. Rotating community funds support the creation of rural and urban micro-enterprises. This approach strengthens solidarity, stimulates local economic circuits, and promotes income sustainability.
+
+<img-5>
 
 3. Strengthening Resilience and Local Governance
 To ensure sustainable recovery, HARONA supports the implementation of agroecological approaches (crop diversification, composting, micro-irrigation) and participatory management of community resources. Spaces for citizen dialogue and training in local governance are created to strengthen social cohesion, transparency and collective responsibility. Households thus become actors in their own development, capable of anticipating crises and building a resilient and inclusive economy.
@@ -122,6 +126,13 @@ To ensure sustainable recovery, HARONA supports the implementation of agroecolog
                 en: 'An armored vehicle of the security forces is chasing the young protesters.',
             },
         },
+        img5: {
+            src: 'asset/image/entreprenariat.jpg', 
+            alt: {
+                fr: 'Formation sur le sanimarketing (SANPLAT SLAB).',
+                en: 'Training on Sanitation Marketing (SANPLAT SLAB).',
+            },
+        },
     },
   },
 
@@ -157,6 +168,7 @@ Un accent particulier est mis sur la gestion de l’hygiène menstruelle (GHM), 
 Le programme intègre également des actions de communication pour le changement de comportement (CCC). Des campagnes, des animations et des outils pédagogiques accessibles permettent de sensibiliser à des gestes simples mais cruciaux : le lavage des mains, l’utilisation de latrines, ou la conservation de l’eau.
 
 Au cœur de cette démarche se trouve un objectif clair : réduire la prévalence de la malnutrition chronique en améliorant l’accès à l’eau potable et à l’assainissement, tout en encourageant des pratiques alimentaires diversifiées et équilibrées. HARONA agit ainsi pour que chaque enfant puisse grandir en bonne santé, chaque femme puisse vivre avec dignité, et chaque famille puisse se projeter vers un avenir plus serein.
+      <img-4>
       `, 
       en: `
 In Atsimo Atsinanana, access to safe water, sanitation, and hygiene remains a daily challenge for thousands of families. The consequences go far beyond discomfort: they directly affect health, nutrition, and child development. HARONA addresses these issues through an integrated WASH and Nutrition program, breaking the vicious cycle between waterborne diseases and malnutrition.
@@ -168,9 +180,19 @@ Special attention is given to menstrual hygiene management (MHM), a subject stil
 The program also includes behavior change communication (BCC) campaigns, using accessible tools and activities to promote simple yet vital practices such as handwashing, safe water storage, and latrine use.
 
 At its core, the program aims to reduce chronic malnutrition by improving water and sanitation access while encouraging diverse and balanced diets. HARONA is committed to ensuring that every child grows up healthy, every woman lives with dignity, and every family looks forward to a brighter future.
+       <img-4>
       `,
     },
-  },
+        gallery: {
+        img4: {
+            src: 'asset/image/wash_1.jpg', 
+            alt: {
+                fr: "Latrine construite localement équipée d'un TippyTap.",
+                en: 'Locally constructed latrine equipped with a Tippy Tap.',
+            },
+        },
+    },
+  },
 
   // =====================================================================
   // Blog 2 (Agriculture) - 2025-10-20
