@@ -46,6 +46,7 @@
     display: flex;
     flex-direction: column;
     text-align: left; /* Assurer que le texte est bien aligné à gauche */
+    text-transform: none; 
 }
 
 .blog-metadata {
@@ -140,6 +141,7 @@
     font-size: 2.5rem;
     margin-top: 10px;
     margin-bottom: 20px;
+    
 }
 
 .article-summary {

@@ -16,7 +16,7 @@ const blogArticles = [
 
     title: {
       fr: 'Madagascar : reconstruire l’espoir après la grève, bâtir la résilience avec HARONA',
-      en: 'Madagascar: Rebuilding Hope After the Strike, Building Resilience with HARONA',
+      en: 'Madagascar: rebuilding hope after the strike, building resilience with HARONA',
     }, 
     summary: {
       fr: 'Dans un contexte marqué par une crise sociale profonde et l’effondrement des services publics, HARONA déploie une réponse communautaire centrée sur la relance des moyens de subsistance, l’autonomisation économique et la résilience des ménages vulnérables, afin de restaurer la dignité, la solidarité et la stabilité économique locale.',
@@ -150,8 +150,8 @@ To ensure sustainable recovery, HARONA supports the implementation of agroecolog
     },
     image: 'asset/image/wash.jpg',
     title: {
-      fr: 'WASH et Nutrition à Atsimo Atsinanana : Construire les bases d’une santé durable',
-      en: 'WASH and Nutrition in Atsimo Atsinanana: Building the Foundations of Lasting Health',
+      fr: 'WASH et nutrition à Atsimo Atsinanana : Construire les bases d’une santé durable',
+      en: 'WASH and nutrition in Atsimo Atsinanana: building the foundations of lasting Health',
     },
     summary: {
       fr: 'Dans la région d’Atsimo Atsinanana, l’accès à l’eau potable, à l’assainissement et à l’hygiène reste un défi quotidien pour des milliers de familles. HARONA met en œuvre un programme intégré de WASH et Nutrition.',
@@ -208,7 +208,7 @@ At its core, the program aims to reduce chronic malnutrition by improving water 
     image: 'asset/image/Agriculture.jpg',
     title: {
       fr: 'Agriculture durable et autonomisation des communautés à Mananjary',
-      en: 'Sustainable Agriculture and Community Empowerment in Mananjary',
+      en: 'Sustainable agriculture and community empowerment in Mananjary',
     },
     summary: {
       fr: 'À Mananjary, l’agriculture reste la principale source de revenus, mais elle est fortement menacée. HARONA intervient pour transformer ces défis en opportunités à travers un programme d’agriculture durable.',
@@ -265,7 +265,7 @@ Through this project, HARONA is not just promoting sustainable farming. We are b
     image: 'asset/image/agritech.jpg',
     title: {
       fr: 'AgriTech à Manakara : l’innovation au service des producteurs',
-      en: 'AgriTech in Manakara: Innovation at the Service of Farmers',
+      en: 'AgriTech in Manakara: innovation at the service of farmers',
     },
     summary: {
       fr: 'HARONA, en partenariat avec SmartSaha, mise sur l’AgriTech pour combler le manque d’accès à l’information et offrir de nouvelles perspectives aux agriculteurs.',
@@ -319,7 +319,7 @@ By blending technology with traditional farming practices, HARONA and SmartSaha 
     image: 'asset/image/Resilience.jpg',
     title: {
       fr: 'Résilience et anticipation cyclonique à Mananjary',
-      en: 'Cyclone Resilience and Preparedness in Mananjary',
+      en: 'Cyclone resilience and preparedness in Mananjary',
     },
     summary: {
       fr: 'Chaque année, Madagascar est frappé par des cyclones majeurs. HARONA y développe un projet de résilience et d’anticipation pour aider les communautés de Mananjary à se préparer et à réduire leur vulnérabilité.',
