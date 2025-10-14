@@ -67,6 +67,27 @@
                         
                     </div>
                 </div>
+
+                <div class="contact-form">
+                    <h3>Send us a message</h3>
+                    <form id="contact-form">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="from_name" placeholder="Your name" required>
+
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="reply_to" placeholder="Your email" required>
+
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" placeholder="Subject" required>
+
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Your message..." required></textarea>
+
+                        <button type="submit">Send Message</button>
+                    </form>
+
+                    <p id="response-message"></p>
+                </div>
             </div>
         </section>
     </main>

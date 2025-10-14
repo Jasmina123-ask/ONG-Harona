@@ -1109,65 +1109,50 @@ p {
 /* Nous conservons les styles précédents qui assurent le centrage */
 
 .contact-form {
-    max-width: 500px;
-    margin: 0 auto; /* Centré, et la marge supérieure est donnée par le contact-info précédent */
-    padding: 30px;
-    background: #ffffff;
+    background: #f9f9f9;
+    padding: 25px;
     border-radius: 10px;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
-    border-top: 5px solid var(--primary-color, #00666d);
+    margin-top: 30px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
 .contact-form h3 {
-    font-size: 1.8rem;
-    color: #333;
-    margin-bottom: 25px;
-    text-align: center;
+    margin-bottom: 15px;
+    color: #00666d;
 }
 
-#contactForm label {
-    display: block; 
-    margin-bottom: 8px;
-    margin-top: 15px;
-    font-weight: 600;
-    color: #4a4a4a;
+.contact-form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
 }
 
-#contactForm input[type="text"],
-#contactForm input[type="email"],
-#contactForm input[type="tel"],
-#contactForm input[type="text"],
-#contactForm textarea {
+.contact-form input,
+.contact-form textarea {
     width: 100%;
-    padding: 12px;
+    padding: 10px;
+    margin-top: 5px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    box-sizing: border-box; 
-    font-size: 1rem;
 }
 
-#contactForm textarea {
-    resize: vertical; 
-    min-height: 100px;
-}
-
-#contactForm button[type="submit"] {
-    display: block;
-    width: 100%;
-    padding: 15px;
-    margin-top: 25px;
-    background-color: var(--primary-color, #00666d);
+.contact-form button {
+    margin-top: 15px;
+    background: #00666d;
     color: white;
+    padding: 10px 20px;
     border: none;
     border-radius: 5px;
-    font-size: 1.1rem;
-    font-weight: bold;
     cursor: pointer;
-    transition: background-color 0.3s;
 }
 
-#contactForm button[type="submit"]:hover {
-    background-color: var(--primary-color-darker, #0056b3);
+.contact-form button:hover {
+    background: #0098a5;
+}
+
+#response-message {
+    margin-top: 10px;
+    font-weight: bold;
 }
 
 /* Message de confirmation */
