@@ -973,73 +973,196 @@ p {
 
 /* PARTENARIATS.HTML STYLES */
 
-.partnerships-intro .intro-text {
-    font-size: 1.1em;
-    line-height: 1.6;
-    margin-bottom: 40px;
-    border-left: 5px solid #00666d;
-    padding-left: 20px;
+main .container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px 0;
 }
 
-.partnerships-details {
-    padding-top: 40px;
-    margin-bottom: 50px;
+
+.partnerships-intro {
+  background: #ffffff;
+  padding: 35px 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 102, 109, 0.1);
+  margin-bottom: 30px;
+}
+
+.partnerships-intro h2 {
+  font-size: 2.2rem;
+  color: #004b52;
+  margin-bottom: 10px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.partnerships-intro .intro-text {
+  max-width: 780px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  color: #333333;
+  line-height: 1.6;
+  text-align: center;
+}
+
+
+.partnerships-details .container {
+  display: flex;
+  flex-direction: column; 
+  gap: 20px;
+  align-items: center;
+}
+
+.partner-header {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;    
+  justify-content: center; 
+  text-align: center;    
+  gap: 0px;             
+  margin: 20px 0;        
+}
+
+.partner-body {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 15px;
 }
 
 .partner-card {
-    background-color: #f9f9f9;
-    padding: 30px;
-    margin-bottom: 30px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  border-radius: 12px;
+  padding: 25px 20px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 100%;
+  max-width: 100%; /* full width */
 }
 
-.partner-card h3 {
-    color: #00666d;
-    margin-top: 10px;
-    margin-bottom: 15px;
-    border-bottom: 2px dotted #ccc;
-    padding-bottom: 10px;
+.partner-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 32px rgba(0, 0, 0, 0.15);
 }
 
 .partner-logo {
-    max-width: 150px; 
-    height: auto;
-    float: right;
-    margin: 0 0 15px 20px;
+  width: 200px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.partner-logo:hover {
+  transform: scale(1.07);
+}
+
+.partner-activity-img {
+  width: 90%;
+  max-width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 5px 18px rgba(0,0,0,0.12);
+  margin: 20px 0;
+  object-fit: cover;
+}
+
+.partner-card h3 {
+  font-size: 1.4rem;
+  color: #00666d;
+  margin-bottom: 10px;
+  font-weight: 700;
 }
 
 .partner-card p {
-    line-height: 1.5;
-    text-align: justify;
+  font-size: 1rem;
+  color: #444444;
+  line-height: 1.5;
+  margin-bottom: 25px;
 }
 
 .cta-partner {
-    text-align: center;
-    padding: 30px;
-    background-color: #e6f7f8; 
-    border-radius: 8px;
-    margin-top: 40px;
-    border: 1px solid #00666d;
+  flex-basis: 100%;
+  background-color: #e9f5f7;
+  border-radius: 12px;
+  padding: 35px 20px;
+  margin-top: 40px;
+  text-align: center;
+  box-shadow: 0 4px 14px rgba(0, 102, 109, 0.12);
 }
 
 .cta-partner h4 {
-    margin: 0 0 10px 0;
-    color: #333;
+  font-size: 1.6rem;
+  color: #004551;
+  margin-bottom: 18px;
+  font-weight: 700;
 }
 
-.cta-partner a {
-    color: #00666d;
-    font-weight: 600;
-    text-decoration: underline;
+.cta-partner p {
+  font-size: 1.1rem;
+  color: #333;
 }
 
-/* Clearfix pour les logos flottants */
-.partner-card::after {
-    content: "";
-    display: table;
-    clear: both;
+.cta-partner p a {
+  color: #007B83;
+  font-weight: 700;
+  text-decoration: underline;
 }
+
+.cta-partner p a:hover {
+  color: #007B83;
+}
+
+.partner-cta-button {
+  display: inline-block;
+  background-color: #fff; 
+  color: #007B83; 
+  font-weight: 600;
+  text-decoration: none;
+  padding: 12px 28px;
+  border-radius: 30px; 
+  font-size: 16px;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+  letter-spacing: 0.5px;
+}
+
+.partner-cta-button:hover {
+  background-color:  #007B83;
+  color: #fff;
+  transform: translateY(-2px); 
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .partner-card {
+    width: 100%;
+  }
+  .partner-logo {
+    width: 110px;
+  }
+  .partner-activity-img {
+    max-width: 100%;
+    margin: 15px 0;
+  }
+  .partnerships-intro h2 {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .partnershp-intro .intro-text,
+  .partner-card p,
+  .cta-partner p {
+    font-size: 0.95rem;
+  }
+}
+
 
 /* Styles spécifiques pour la page de DONATION*/
 
