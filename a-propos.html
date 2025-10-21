@@ -3,16 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>À Propos de nous - ONG HARONA</title>
+    <title>À propos de nous - ONG HARONA</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 <body>
 
     <header class="header">
         <div class="container">
             <div class="logo" style="display: flex; align-items: center;">
-                <a href="index.html">
+                <a href="acceuil.html">
                     <img src="asset/image/Harona.jpg" alt="Logo de l'ONG HARONA" class="logo" >
                 </a>
                 <h1 class="site-title" style="margin-left: 25px;">ONG HARONA</h1>
@@ -23,9 +27,8 @@
                     <li><a href="a-propos.html">À Propos</a></li>
                     <li><a href="projets.html">Nos Projets</a></li>
                     <li><a href="partenariats.html">Partenaires</a></li>
-                    <li><a href="blog-fr.html">Blog</a></li> 
+                    <li><a href="blog-fr.html">Blog</a></li>
                     <li><a href="contact.html">Contact</a></li>
-                    
                 </ul>
             </nav>
             <a href="about-us-en.html" class="lang-switcher">EN</a>
@@ -37,9 +40,8 @@
         </div>
     </header>
 
-
     <main>
-        <section class="about-us">
+        <section class="about-us background-image-section">
             <div class="container">
                 <h2>Qui sommes-nous ?</h2>
                 <div class="about-content">
@@ -48,50 +50,60 @@
             </div>
         </section>
 
-        <section class="mission-vision">
+        <section class="mission-vision stepped-layout">
             <div class="container">
-                <div class="card-mission">
-                    <h3>Notre Mission</h3>
-                    <p>Accompagner les dynamiques locales de développement à travers des approches participatives, inclusives et innovantes, en renforçant les capacités des communautés à gérer durablement leurs ressources, à améliorer leur bien-être et à s’adapter aux défis climatiques et sociaux.</p>
-                </div>
-                <div class="card-vision">
-                    <h3>Notre Vision</h3>
-                    <p>Construire des communautés résilientes, équitables et durables, capables de faire face aux crises et de se développer de manière autonome, en harmonie avec leur environnement.</p>
+                <div class="stepped-content-grid">
+                    <div class="card-mission">
+                        <h3><i class="fas fa-bullseye"></i> Notre Mission</h3>
+                        <p>Accompagner les dynamiques locales de développement à travers des approches participatives, inclusives et innovantes, en renforçant les capacités des communautés à gérer durablement leurs ressources, à améliorer leur bien-être et à s’adapter aux défis climatiques et sociaux.</p>
+                    </div>
+                    <div class="section-image central-image">
+                        <img src="asset/image/impact-vision.jpg" alt="Photo d'un projet HARONA réussi (champ irrigué, source d'eau propre, etc.)." loading="lazy">
+                    </div>
+                    <div class="card-vision">
+                        <h3><i class="fas fa-eye"></i> Notre Vision</h3>
+                        <p>Construire des communautés résilientes, équitables et durables, capables de faire face aux crises et de se développer de manière autonome, en harmonie avec leur environnement.</p>
+                    </div>
                 </div>
             </div>
         </section>
 
         <section class="objectives">
             <div class="container">
-                <h2>Nos Objectifs Stratégiques</h2>
-                <div class="objective-list">
-                    <div class="objective-card">
-                        <h3>1. Renforcer la résilience des communautés</h3>
-                        <p>Dans un contexte de vulnérabilité accrue, notre ONG s’engage à renforcer durablement la résilience des communautés face aux aléas naturels ou anthropiques. Nous favorisons l’élaboration de plans communautaires de gestion des risques, la mise en œuvre de mesures de mitigation, et le renforcement des mécanismes de prévention.</p>
+                <h2 style="text-align: center;">Nos Objectifs Stratégiques</h2>
+                <div class="objectives-wrapper">
+                    <div class="section-image">
+                        <img src="asset/image/sustainable-development.png" alt="Symbole du développement durable (main avec arbre ou panneau solaire)" loading="lazy">
                     </div>
-                    <div class="objective-card">
-                        <h3>2. Améliorer l’accès aux services essentiels</h3>
-                        <p>Nous visons à améliorer l’accès à l’eau potable, à l’assainissement, à la nutrition, à l’éducation et à la santé communautaire. Nous intervenons en appui aux structures locales en intégrant des solutions innovantes et en promouvant les changements de comportement pour des services durables.</p>
-                    </div>
-                    <div class="objective-card">
-                        <h3>3. Promouvoir une agriculture durable et intelligente face au climat</h3>
-                        <p>Nous soutenons l’adoption de pratiques agricoles résilientes et respectueuses de l’environnement. Nous accompagnons les producteurs dans l’agriculture de conservation, l’agroforesterie et la diversification des cultures, tout en développant les chaînes de valeur agricoles locales pour une meilleure valorisation économique.</p>
-                    </div>
-                    <div class="objective-card">
-                        <h3>4. Encourager la gouvernance locale inclusive</h3>
-                        <p>Nous croyons en des systèmes de gouvernance transparents et participatifs. Nous soutenons les structures communautaires représentatives, mettons en place des mécanismes de redevabilité sociale (budgets participatifs, plateformes de dialogue) et renforçons la confiance entre les institutions et les citoyens.</p>
-                    </div>
-                    <div class="objective-card">
-                        <h3>5. Soutenir la planification territoriale avec les outils géospatiaux</h3>
-                        <p>Pour une gestion rationnelle des ressources, nous utilisons les Systèmes d’Information Géographique (SIG) et les données satellitaires. Ces outils nous permettent d’appuyer la planification territoriale, d’identifier les zones à risque et de guider les décisions locales pour des politiques territoriales adaptées.</p>
-                    </div>
-                    <div class="objective-card">
-                        <h3>6. Mobiliser les jeunes et les femmes comme acteurs clés</h3>
-                        <p>Nous plaçons les jeunes et les femmes au cœur des transformations sociales et économiques. Nous renforçons leurs capacités, leur leadership et leur inclusion dans les espaces de décision. À travers des formations et des initiatives entrepreneuriales, nous soutenons leur autonomisation pour qu'ils deviennent des agents de changement durable.</p>
-                    </div>
-                    <div class="objective-card">
-                        <h3>7. Promouvoir l’énergie renouvelable</h3>
-                        <p>Nous œuvrons pour faciliter l'accès à des solutions énergétiques durables, propres et abordables pour les communautés vulnérables et isolées. Cette démarche contribue à l'amélioration de leurs conditions de vie, à la protection de l'environnement et à la lutte contre le changement climatique.</p>
+                    <div class="objective-list">
+                        <div class="objective-card">
+                            <h3><i class="fas fa-shield-alt"></i> 1. Renforcer la résilience des communautés</h3>
+                            <p>Dans un contexte de vulnérabilité accrue, notre ONG s’engage à renforcer durablement la résilience des communautés face aux aléas naturels ou anthropiques. Nous favorisons l’élaboration de plans communautaires de gestion des risques, la mise en œuvre de mesures de mitigation et le renforcement des mécanismes de prévention.</p>
+                        </div>
+                        <div class="objective-card">
+                            <h3><i class="fas fa-hands-helping"></i> 2. Améliorer l’accès aux services essentiels</h3>
+                            <p>Nous visons à améliorer l’accès à l’eau potable, à l’assainissement, à la nutrition, à l’éducation et à la santé communautaire. Nous intervenons en appui aux structures locales en intégrant des solutions innovantes et en promouvant les changements de comportement pour des services durables.</p>
+                        </div>
+                        <div class="objective-card">
+                            <h3><i class="fas fa-seedling"></i> 3. Promouvoir une agriculture durable et intelligente face au climat</h3>
+                            <p>Nous soutenons l’adoption de pratiques agricoles résilientes et respectueuses de l’environnement. Nous accompagnons les producteurs dans l’agriculture de conservation, l’agroforesterie et la diversification des cultures, tout en développant les chaînes de valeur agricoles locales pour une meilleure valorisation économique.</p>
+                        </div>
+                        <div class="objective-card">
+                            <h3><i class="fas fa-landmark"></i> 4. Encourager la gouvernance locale inclusive</h3>
+                            <p>Nous croyons en des systèmes de gouvernance transparents et participatifs. Nous soutenons les structures communautaires représentatives, mettons en place des mécanismes de redevabilité sociale (budgets participatifs, plateformes de dialogue) et renforçons la confiance entre les institutions et les citoyens.</p>
+                        </div>
+                        <div class="objective-card">
+                            <h3><i class="fas fa-globe-americas"></i> 5. Soutenir la planification territoriale avec les outils géospatiaux</h3>
+                            <p>Pour une gestion rationnelle des ressources, nous utilisons les Systèmes d’Information Géographique (SIG) et les données satellitaires. Ces outils nous permettent d’appuyer la planification territoriale, d’identifier les zones à risque et de guider les décisions locales pour des politiques territoriales adaptées.</p>
+                        </div>
+                        <div class="objective-card">
+                            <h3><i class="fas fa-users"></i> 6. Mobiliser les jeunes et les femmes comme acteurs clés</h3>
+                            <p>Nous plaçons les jeunes et les femmes au cœur des transformations sociales et économiques. Nous renforçons leurs capacités, leur leadership et leur inclusion dans les espaces de décision. À travers des formations et des initiatives entrepreneuriales, nous soutenons leur autonomisation pour qu'ils deviennent des agents de changement durable.</p>
+                        </div>
+                        <div class="objective-card">
+                            <h3><i class="fas fa-sun"></i> 7. Promouvoir l’énergie renouvelable</h3>
+                            <p>Nous œuvrons pour faciliter l'accès à des solutions énergétiques durables, propres et abordables pour les communautés vulnérables et isolées. Cette démarche contribue à l'amélioration de leurs conditions de vie, à la protection de l'environnement et à la lutte contre le changement climatique.</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -102,19 +114,22 @@
                 <h2>Nos Valeurs Fondamentales</h2>
                 <div class="values-grid">
                     <div class="value-card">
-                        <h3>Communautés et collaboration</h3>
+                        <h3><i class="fas fa-handshake"></i> Communautés et collaboration</h3>
                         <p>Nous privilégions une approche de collaboration active avec les acteurs locaux pour créer un développement inclusif et partagé.</p>
                     </div>
                     <div class="value-card">
-                        <h3>Durabilité et inclusion</h3>
+                        <h3><i class="fas fa-leaf"></i> Durabilité et inclusion</h3>
                         <p>Nos interventions visent un impact à long terme, en respectant les équilibres sociaux et environnementaux et en intégrant les populations marginalisées.</p>
                     </div>
+                    <div class="section-image">
+                        <img src="asset/image/team-values.png" alt="Groupe de personnes en discussion ou collaboration." loading="lazy">
+                    </div>
                     <div class="value-card">
-                        <h3>Engagement et redevabilité</h3>
+                        <h3><i class="fas fa-balance-scale"></i> Engagement et redevabilité</h3>
                         <p>Nous agissons avec intégrité et responsabilité, en facilitant des mécanismes clairs de redevabilité sociale pour garantir la transparence de nos actions.</p>
                     </div>
                     <div class="value-card">
-                        <h3>Innovation et adaptation</h3>
+                        <h3><i class="fas fa-lightbulb"></i> Innovation et adaptation</h3>
                         <p>Nous intégrons des outils technologiques et des méthodes créatives pour répondre de manière souple et efficace aux défis complexes du développement.</p>
                     </div>
                 </div>
@@ -164,7 +179,6 @@
                 </div>
             </div>
         </section>
-
     </main>
 
     <footer class="footer">
@@ -174,11 +188,11 @@
                     <h4>À propos de nous</h4>
                     <p>ONG HARONA, dédiée au renforcement des communautés pour un avenir durable et résilient.</p>
                 </div>
-                <div class="footer-section contact-info" style="background-color:  #00666d;">
+                <div class="footer-section contact-info" style="background-color: #00666d;">
                     <h4>Contact</h4>
                     <p>Adresse : Lot 73 AD, Ankadikely Ilafy, Antananarivo</p>
-                    <p>Email : ongharona@gmail.com </p>
-                    <p>Téléphone : +261344599960  </p>
+                    <p>Email : ongharona@gmail.com</p>
+                    <p>Téléphone : +261344599960</p>
                 </div>
             </div>
         </div>
