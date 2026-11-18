@@ -92,6 +92,21 @@
     const APK_URL = "https://www.madarom.net/download/Taranaka.apk";
     const DANCE_DURATION = 1500;
     const MAX_ATTEMPTS = 3;
+    const SEEN_KEY = "taranaka_popup_seen";
+    function hasSeenPopup() {
+        try {
+            return localStorage.getItem(SEEN_KEY) === "true";
+        } catch (error) {
+            return false;
+        }
+    }
+    function markPopupSeen() {
+        try {
+            localStorage.setItem(SEEN_KEY, "true");
+        } catch (error) {
+            /* stockage indisponible : rien à faire */
+        }
+    }
     const REQUIRED_IDS = [
         "taranakaPopup",
         "taranakaClose",
@@ -115,7 +130,7 @@
             if (isComplete()) {break;}
             console.warn("Taranaka : fragment incomplet (tentative " + attempt + ").");
         }
-        initTaranaka(container.dataset.taranakaAutoopen !== "false");
+        initTaranaka(container.dataset.taranakaAutoopen !== "false" && !hasSeenPopup());
     });
     async function loadFragment() {
         return POPUP_HTML;
@@ -287,6 +302,7 @@
 
         if (closeBtn) {
             closeBtn.addEventListener("click", function () {
+                markPopupSeen();
                 showPopup(false);
             });
         }
