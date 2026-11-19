@@ -9,7 +9,10 @@
             <article class="taranaka-card taranaka-slide-down">
                 <header class="taranaka-header">
                     <div class="taranaka-header-brand">
-                        <img data-src="asset/image/taranaka/logo_madarom.png" alt="Logo Madarom" class="taranaka-logo">
+                        <div class="taranaka-logo-wrap">
+                            <img data-src="asset/image/taranaka/logo_madarom.png" alt="Logo Madarom" class="taranaka-logo">
+                            <span class="taranaka-logo-text">Harona NGO</span>
+                        </div>
                         <span class="taranaka-presents">presents</span>
                     </div>
 
