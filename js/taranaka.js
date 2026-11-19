@@ -238,7 +238,8 @@
             const RAISE = 96 / 2.54; // 1 cm
             const fit = Math.max(0.1, Math.min(1, (zoneHeight - RAISE) / cardHeight));
             const centeredTop = zoneTop + Math.max(0, (zoneHeight - cardHeight * fit) / 2);
-            const cardTop = Math.max(zoneTop, centeredTop - RAISE);
+            const LIFT = 0.5 * 96 / 2.54; // 0.5 cm
+            const cardTop = Math.max(zoneTop, centeredTop - RAISE) - LIFT;
 
             popup.dataset.anchor = "center";
             popup.classList.add("taranaka-overlay--anchored");

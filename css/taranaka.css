@@ -219,9 +219,10 @@
 }
 
 .taranaka-header-brand {
+    --taranaka-logo-size: 6rem;
     display: flex;
-    align-items: center;
-    gap: 0.5rem;
+    align-items: flex-start;
+    gap: 1.25rem;
     min-width: 0;
 }
 
@@ -229,25 +230,33 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 0.5rem;
 }
 
 .taranaka-logo-text {
     color: var(--taranaka-green);
+    font-size: 1.25rem;
     font-weight: 700;
+    line-height: 1;
+    letter-spacing: 0.02em;
+    text-align: center;
     white-space: nowrap;
-    font-size: 1.5rem;
 }
 
 .taranaka-logo {
-    width: 11rem;
+    width: var(--taranaka-logo-size);
     object-fit: contain;
 }
 
 .taranaka-presents {
+    display: flex;
+    align-items: center;
+    height: var(--taranaka-logo-size);
     color: var(--taranaka-green);
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 700;
     line-height: 1;
+    letter-spacing: 0.08em;
     text-transform: uppercase;
     white-space: nowrap;
 }
@@ -534,6 +543,9 @@
         display: none;
     }
     .taranaka-overlay {
+        z-index: 1001;
+    }
+    body:has(.nav.active) .taranaka-overlay {
         z-index: 999;
     }
 }
@@ -574,8 +586,8 @@
         padding: 1.5rem;
     }
 
-    .taranaka-logo {
-        width: 6rem;
+    .taranaka-logo-text {
+        font-size: 1.5rem;
     }
 
     .taranaka-overlay .taranaka-deco {
